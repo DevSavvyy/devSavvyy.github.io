@@ -1,0 +1,320 @@
+/* COLORS */
+/* 
+primary: #ff7f50
+greycolor: #2f3542
+text-color: 
+*/
+/* COLORS */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #2d3436;
+}
+
+/* IMAGES START */
+
+/* .navigation-img {
+    display: block;
+    width: 1000px;
+    height: 40px;
+} */
+
+.code-img {
+    width: auto;
+    height: 350px;
+}
+
+/* IMAGES END */
+
+/* BUTTONS START */
+
+.nav-btn {
+    color: #2d3436;
+    text-decoration: none;
+}
+
+.nav-btn:hover {
+    color: #fcb08f;
+}
+
+/* BUTTONS END */
+
+
+
+.top-nav-container {
+    display: flex;
+    align-content: space-between;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    flex: 1 1 50px;
+    width: 1000px;
+    margin-top: 12px;
+    border-bottom: 4px solid #da8465;
+    border-radius: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 200px;
+    margin-right: 10px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.navigation-heading {
+    align-self: center;
+    margin-left: 10px;
+}
+
+/* GRID CONTAINER */
+
+.article-container {
+    margin-top: 80px;
+    display: inline-grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-content: center;
+    grid-gap: 30px;
+}
+
+.heading-two {
+    grid-column: 1  / 3;
+    grid-row: 1 / 2;
+    justify-self: start;
+    align-self: start;
+    width: auto;
+    font-size: 40px;
+    color: #2d3436;
+    text-transform: uppercase;
+}
+
+.code-img-content {
+    grid-column: -1 / -1;
+    grid-row: -1 / 1;
+    border-radius: 12px;
+    box-shadow: 1px 5px 6px rgba(0,0,0,0.7);
+}
+
+li {
+    color: #2d3436;
+}
+
+.grid-button-main {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding: 16px 24px;
+    align-self: end;
+    justify-self: start;
+    border-radius: 100px;
+    margin-right: 65px;
+    margin-bottom: 24px;
+    color: #fff;
+    background-color: #da8465;
+    border: none;
+}
+
+.grid-button-main:hover {
+    background-color: #fcb08f;
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.grid-button-main:active {
+    background-color: #fcb08f;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.heading-two-small-txt {
+    text-decoration: underline #fcb08f;
+}
+
+/* GRID CONTAINER END */
+
+/* FLEXBOX SKILLS START */
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 50%;
+    width: 1000px;
+    margin: 120px 0;
+    background-color: #fcb08f;
+    padding: 24px;
+    /* overflow: auto; */
+}
+
+.first-section {
+    border-radius: 4px;
+    margin: 75px;
+    background-color: grey;
+    box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.second-section {
+    border-radius: 4px;
+    margin: 75px;
+    background-color: grey;
+    height: auto;
+    box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.computer-img {
+    margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.skills-ul {
+    display: block;
+    height: auto;
+    width: 300px;
+    
+    list-style: none;
+    
+}
+
+h3 {
+justify-content: center;
+align-items: center;
+font-size: 50px;
+color: #2d3436;
+}
+
+.skill-bkg {
+    height: auto;
+    margin: 12px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.skill {
+    text-align: center;
+    background-color:rgb(199, 207, 238);
+    border-radius: 3px;
+}
+
+.skill-1 {
+    width: 75%;
+}
+
+.skill-2 {
+    width: 40%;
+}
+
+.skill-3 {
+    width: 90%;
+}
+
+.skill-4 {
+    width: 90%;
+}
+
+.skillset1 {
+width: 100%;
+}
+
+.skillset2 {
+width: 90%;
+}
+
+.skillset3 {
+    width: 80%;
+
+}
+
+.skillset4 {
+width: 90%;
+}
+
+.first-section-btn {
+    padding: 3px 6px;
+    text-transform: uppercase;
+    color: #2d3436;
+    background: hsl(193, 9%, 19%, 0.3);
+    padding: 6px 12px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    margin-right: 6px;
+    margin-top: 18px;
+    background-color: #da8465;
+    color: #fff;
+    border: none;
+}
+
+.first-section-btn:hover {
+    background-color: #fcb08f;
+}
+
+/* FLEXBOX SKILLS END */
+
+/* FOOTER START */
+
+.footer-container {
+    display: flex;
+    border-top: 4px solid #da8465;
+    height: 40px;
+    justify-content: space-between;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+.social-media {
+    display: flex;
+    list-style: none;
+    align-self: flex-start;
+    flex: 0 1 auto;
+    gap: 5px;
+    margin: 10px;
+}
+
+.social-media:first-child {
+    gap: 0;
+}
+
+.copyright {
+margin-top: 10px;
+}
+
+.icon1 {
+}
+
+.icon2 {
+
+}
+
+.icon3 {
+
+}
+
+.icon4 {
+
+}
+
+.icon5 {
+
+}
+
+/* FOOTER END */
